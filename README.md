@@ -1,3 +1,10 @@
+# mysql-django 연동 추가사항
+django-app 컨테이너에 attach해서 해줘야할 게 있음
+
+python3 manage.py makemigrations
+python3 manage.py migrate
+python3 manage.py createsuperuser
+
 # docker-demo
 A Docker - composer example that provides a Django, Flask, Java, Redis, Elasticsearch, MySQL, Postgres, and Mongo container
 
